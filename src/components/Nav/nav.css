@@ -1,0 +1,29 @@
+.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+.nav-list__item {
+  margin-right: 30px;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 360px;
+  max-width: 1200px;
+}
+p {
+  margin: 0;
+}
+
+.header {
+  padding-top: 30px;
+}

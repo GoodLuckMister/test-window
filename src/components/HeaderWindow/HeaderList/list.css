@@ -1,0 +1,38 @@
+.header-list {
+  list-style: none;
+  display: flex;
+}
+
+.header-list__item {
+  display: flex;
+  align-items: center;
+}
+.text-list__item {
+  width: 126px;
+  display: block;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 316px;
+  height: 56px;
+  border: none;
+  color: white;
+  background: #d70000;
+  border-radius: 12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  cursor: pointer;
+}
+.symbol-button {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url("../../../images/header/tape.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
