@@ -1,3 +1,124 @@
-.first-slide button {
+.herro-page {
+  width: 805px;
+}
+.title-hero {
+  display: block;
+  width: 600px;
+  margin: 0;
+  font-size: 56px;
+  line-height: 64px;
+}
+.button-sale {
+  position: absolute;
+  right: 242px;
+  z-index: 10;
+  width: 172px;
+  height: 56px;
+  border-radius: 12px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+}
+.link::before {
+  content: "";
+  display: block;
+  width: 67px;
+  height: 48px;
+  background-image: url("../../../images/herro/button.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.title-hero::after {
+  content: "";
+  display: block;
+  width: 440px;
+  height: 8px;
+  background-color: red;
+}
+.for-flex {
+  display: flex;
+}
+.text-swiper {
+  display: block;
+  width: 440px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 111px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  right: 391px;
+  text-align: start;
+}
+
+.point_slider {
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: grey;
+}
+.slick-active .point_slider {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
   background: red;
+}
+.title_swiper {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.slide-slider {
+  width: 450px;
+}
+.circle-slider {
+  width: 812px;
+  height: 800px;
+  margin: 0;
+  background: url("../../../images//herro/Group.png"),
+    url("../../../images/herro/Group1.png"),
+    url("../../../images//herro/Oval.png");
+  background-position: center, 617px;
+  background-repeat: no-repeat;
+}
+.circle-slider1 {
+  width: 812px;
+  height: 800px;
+  margin: 0;
+  background: url("../../../images//herro/Group.png"),
+    url("../../../images/herro/Group1.png"),
+    url("../../../images//herro/Oval1.png");
+  background-position: center, 617px;
+  background-repeat: no-repeat;
+}
+.circle-slider2 {
+  width: 800px;
+  height: 800px;
+  margin: 0;
+  background: url("../../../images//herro/Group.png"),
+    url("../../../images/herro/Group1.png"),
+    url("../../../images//herro/Oval2.png");
+  background-position: center, 617px;
+  background-repeat: no-repeat;
 }

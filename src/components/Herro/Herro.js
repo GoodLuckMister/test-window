@@ -5,8 +5,11 @@ export default function Herro() {
 
     return (
         <>
+
             <HerroHead />
+            <button className="button button-sale">Скидки -20 %</button>
             <HerroBody />
+
         </>
     )
 }
