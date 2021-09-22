@@ -2,8 +2,8 @@ import Navigation from './components/Nav';
 import Header from './components/HeaderWindow';
 import Herro from './components/Herro';
 
-
 import './App.css';
+
 
 function App() {
   return (

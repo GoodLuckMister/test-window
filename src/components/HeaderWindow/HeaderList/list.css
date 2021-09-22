@@ -13,6 +13,7 @@
   height: 48px;
   font-weight: 500;
 }
+
 .header-list__item:not(:last-child) {
   margin-right: 30px;
 }
@@ -36,6 +37,7 @@
 
   cursor: pointer;
 }
+
 .symbol-button {
   display: block;
   width: 40px;
@@ -43,4 +45,13 @@
   background-image: url("../../../images/header/tape.svg");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .header-list {
+    display: none;
+  }
+  .button {
+    display: none;
+  }
 }
