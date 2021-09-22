@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 export default function Aside() {
     return (<>
         <div className="slide-slider">
@@ -11,7 +12,7 @@ export default function Aside() {
                 длительным сроком использования. Компания «Орнет» с 2004 года
                 выполняет остекление квартир, частных домов.</p>
 
-            <a href className="link">Подробнее...</a>
+            <a href="#" className="link">Подробнее...</a>
         </div>
     </>)
 }

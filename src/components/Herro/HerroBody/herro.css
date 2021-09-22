@@ -7,10 +7,12 @@
   margin: 0;
   font-size: 56px;
   line-height: 64px;
+  margin-bottom: 50px;
 }
 .button-sale {
   position: absolute;
-  right: 242px;
+  right: 120px;
+  bottom: -117px;
   z-index: 10;
   width: 172px;
   height: 56px;
@@ -22,6 +24,8 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+  color: #ffffff;
+  text-decoration: none;
 }
 .link::before {
   content: "";
@@ -31,6 +35,7 @@
   background-image: url("../../../images/herro/button.svg");
   background-repeat: no-repeat;
   background-size: contain;
+  margin-right: 15px;
 }
 
 .title-hero::after {
@@ -39,6 +44,7 @@
   width: 440px;
   height: 8px;
   background-color: red;
+  margin-top: 30px;
 }
 .for-flex {
   display: flex;
@@ -48,6 +54,8 @@
   width: 440px;
   font-size: 16px;
   line-height: 24px;
+  color: #ffffff80;
+  margin-bottom: 40px;
 }
 .slick-dots {
   position: absolute;
@@ -81,7 +89,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height */
+  margin-bottom: 30px;
 
   letter-spacing: 1px;
   text-transform: uppercase;

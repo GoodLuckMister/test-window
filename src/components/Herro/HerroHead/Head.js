@@ -43,7 +43,7 @@ export default function Head() {
     return (
         <><ul className="herro-list">
             {array.map(e => (
-                <li className="herro-list__item" key={e.id}>{e.name}</li>
+                <li className="herro-list__item" key={e.id}>{e.name.toUpperCase()}</li>
             ))}
         </ul>
         </>

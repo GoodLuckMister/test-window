@@ -7,7 +7,9 @@ export default function Herro() {
         <>
 
             <HerroHead />
-            <button className="button button-sale">Скидки -20 %</button>
+            <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+                <button className="button button-sale">Скидки -20 %</button>
+            </div>
             <HerroBody />
 
         </>

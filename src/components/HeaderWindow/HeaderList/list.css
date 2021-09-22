@@ -1,14 +1,23 @@
 .header-list {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .header-list__item {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  width: 190px;
+  height: 48px;
+  font-weight: 500;
+}
+.header-list__item:not(:last-child) {
+  margin-right: 30px;
 }
 .text-list__item {
-  width: 126px;
+  width: 140px;
   display: block;
 }
 .button {
@@ -21,17 +30,16 @@
   color: white;
   background: #d70000;
   border-radius: 12px;
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 20px;
+
   cursor: pointer;
 }
 .symbol-button {
   display: block;
   width: 40px;
-  height: 40px;
+  height: 30px;
   background-image: url("../../../images/header/tape.svg");
   background-repeat: no-repeat;
   background-size: contain;
