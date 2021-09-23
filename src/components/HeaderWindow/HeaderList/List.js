@@ -29,7 +29,7 @@ export default function HeaderList() {
                 </li>
             ))}
         </ul>
-            <img alt="" width="14" height="24" src={Arrow} />
+            <img className="arrow" alt="" width="14" height="24" src={Arrow} />
             <button className="button"><span className="symbol-button"></span>Записаться на замер</button>
         </>
     )

@@ -54,4 +54,7 @@
   .button {
     display: none;
   }
+  .arrow {
+    display: none;
+  }
 }

@@ -4,8 +4,23 @@
   justify-content: space-between;
   margin: 0;
   padding: 0;
+  width: 1200px;
+  height: 64px;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   margin-bottom: 45px;
+}
+@media screen and (max-width: 600px) {
+  .herro-list {
+    align-items: center;
+    background-color: #042a62;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    line-height: 14px;
+    height: 40px;
+  }
 }

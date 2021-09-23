@@ -1,0 +1,125 @@
+.all-herro__mobile {
+  display: none;
+}
+
+.all-herro__mobile .slick-list {
+  width: 362px;
+}
+.body-slide {
+  position: relative;
+  max-width: 290px;
+}
+
+@media screen and (max-width: 600px) {
+  .button-mobile__slider {
+    position: absolute;
+    right: -8px;
+    width: 125px;
+    height: 32px;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    color: white;
+    background-color: #d70000;
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  .all-herro__mobile {
+    display: block;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .point_slider-mobile {
+    display: block;
+    text-align: center;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: grey;
+  }
+  .slick-active .point_slider-mobile {
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+  }
+  .mobile-body__image {
+    display: block;
+    width: 300px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../../../images/herro/group-mobile.png"),
+      url("../../../../images/herro/group-mobile-2.png"),
+      url("../../../../images/herro/Oval-mobile.png");
+    background-position: center, 228px, center;
+    background-repeat: no-repeat;
+    background-size: 125px 140px, 75px 115px, contain;
+  }
+  .mobile-body__image1 {
+    display: block;
+    width: 300px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../../../images/herro/group-mobile.png"),
+      url("../../../../images/herro/group-mobile-2.png"),
+      url("../../../../images/herro/Oval1.png");
+    background-position: center, 228px, center;
+    background-repeat: no-repeat;
+    background-size: 125px 140px, 75px 115px, contain;
+  }
+  .mobile-body__image2 {
+    display: block;
+    width: 300px;
+    height: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../../../../images/herro/group-mobile.png"),
+      url("../../../../images/herro/group-mobile-2.png"),
+      url("../../../../images/herro/Oval2.png");
+    background-position: center, 228px, center;
+    background-repeat: no-repeat;
+    background-size: 125px 140px, 75px 115px, contain;
+  }
+
+  .title-mobile {
+    display: block;
+    width: 328px;
+    height: 80px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 60px;
+  }
+  .title-mobile::after {
+    content: "";
+    display: block;
+    width: 248px;
+    height: 10px;
+    background-color: red;
+    margin-top: 15px;
+  }
+  .text-mobile {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+  }
+  .text-data {
+    width: 348px;
+    height: 264px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .link {
+    margin-bottom: 30px;
+  }
+}
